@@ -11,3 +11,9 @@ night_mode.addEventListener('click',function() {
     }
 })
 
+colors_input.addEventListener('input',function() {
+    for(let i = 0; i < keys.length; i++) {
+        keys[i].style.color = colors_input.value
+    }
+    keyboard_lights.style.background = colors_input.value;
+})

@@ -1,0 +1,78 @@
+body{
+   margin: 0;    
+    padding: 0;
+}
+
+
+
+.mitad-blanca {
+    height: 360px;  /* Se configura la altura de la division en blanco */
+    background-color: white; /* Se asigna el color del div .mitad-blanca*/
+    color: white;
+}
+.mitad-negra {
+    height: 360px;  /* Se configura la altura de la division en negro */
+    background-color: black;    /* Se asigna el color del div .mitad-negro*/
+    display: flex;  /* Cambia el modelo de caja de algun elemento*/
+    justify-content: center; /* Se asigna el color del div .mitad-negro*/
+    align-items: center; /*Se alinian los elementos al centro */
+}
+
+.tituloQuienesSomos {
+    text-align: center; /*Se llama a la clase del titulo y se alinia */
+}
+
+.tituloQuienesSomos h5 {
+    color: white; 
+    font-size: 60px; /*Se le asigna un tamaño al contenido dentro del h5 dentro de la clase titulo */
+    font-family: 'Courier New', sans-serif; /*Se le asigna una fuente a la clase del titulo */
+}
+
+.parrafoQuienesSomos {
+    position: absolute; /* Controla la posición del parrafo, posicionandolo dentro de las divisiones mas cercanas */
+    top: 50%; /* Define la posicion vertical del elemento */
+    left: 50%; /* Define la posicion horizontal del elemento */
+    transform: translate(-50%, -50%); /* Ajusta la posicion final del elemento ,  vertical como horizontalmente */
+    background-color: #EDD9FF; /* Establece un color de fondo para el parrafo */
+    padding: 20px; /* Agrega un relleno de 20 pixeles alrededor del contenido del parrafo */
+
+}
+
+.contenedor {
+    bottom: 0; /*Alinea el borde inferior */
+    right: 0; /* Alinea el borde dercho */
+    margin: 40px; /* Agrega 40 pixeles alrededor */
+    margin-bottom: 600px; /* agrega un margen inferior de 600 pixeles */
+}
+
+#logoA, #logoB, #logoC, #logoD  { /* Se concatena cada logo para ahorrar codigo*/
+    height: auto; /* Se ajusta la altura de forma autonoma para mantener la posicion original */
+    margin-top: 20.2%; /* Se cambia el margen superior */
+    display: inline-block; /* Hace que los elementos se muestren en linea uno al lado del otro */
+}
+
+#logoA {
+    width: 50px; /* Establece un ancho de 50 píxeles para el logo A */
+    margin-right: 10px; /* Agrega un margen derecho de 10 pixeles al logo A */
+}
+
+
+#logoB {
+    width: 50px;
+    margin-right: 10px; 
+}
+
+#logoC {
+    width: 44px;
+    margin-right: 10px; 
+}
+
+#logoD {
+    width: 44px;
+    margin-right: 10px
+}
+
+#logoE {
+    width: 85px;
+    margin-left: 78%;
+}

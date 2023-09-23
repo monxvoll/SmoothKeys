@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    transition: .2s;
+    transition: 0.2s;
     background-color: black ;
 }
 
@@ -19,7 +19,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 .keyboard_wrapp {
