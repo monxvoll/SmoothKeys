@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+main{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: auto;
+    font-family: 'Courier New', sans-serif;
+}
+.panel_name{
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: calc(250px - 5%);
+    display: flex;
+    align-items: center;
+}
+.panel_name_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: lighter;
+    color: #FFE6FC;
+    margin-right: 15%;
+}
+.panel_picture img {
+    border-radius: 6%;
+}
+
+.panel_name_video video {
+    width: 200px;
+    height: 300px; 
+}
+
+.section-info {
+    width: 100%;
+    height: 150px;
+}
+#section-info .section-info-panel {
+    box-sizing: border-box;
+    width: cal(100% - 100px);
+    height: 220px;
+    padding: 30px 0 50px 0;
+    margin-bottom: 10%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    margin-left: 100px;
+}
+#section-info .section-info_panel_title {
+    width: 50%;
+    max-height: 200px;
+    padding: 10px;
+}
+#section-info .section-info_panel_description {
+    width: 50%;
+    max-height: 200px;
+    padding: 10px;
+}
+#section-info #section-info-panel_title{
+    font-size: 40px;
+    padding: 10% 20px 10% 100px;
+    color:  black;
+}
+#section-info #section-info-panel_description {
+    font-size: 25px;
+    padding: 5% 100px 5% 20px;
+    color: black;
+}
+.section-education {    
+    width: 100%;
+    height: 200px;
+}
+#section-education .section-education-panel {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+#section-education #section-education-panel_tittle {
+    font-size: 45px;
+    padding: 65px 15% 30px 15%;
+    color: #CCE4EA;
+    align-items: center; 
+    justify-content: center;
+}
+#section-education #section-education-panel_content {
+    font-size: 20px;
+    padding: 0 150px 0 150px;
+    margin-bottom: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hr {
+    color: white;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 100px;
+}
+#hr1 {
+    color: white;
+    width: 50%;
+    margin-bottom: 15%;
+    margin-left: 100px;
+}
+#section-aditional {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#section-aditional .section-aditional-panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#section-aditional .section-aditional-panel .section-aditional-panel_text {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 10px 20px 100px;
+}
+
+#section-aditional .section-aditional-panel .section-aditional-panel_image {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 100px 20px 10px;
+}
+
+#section-aditional .section-aditional-panel .section-aditional-panel_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    padding: 0 30px 0 0;
+    object-fit: cover;
+}
+
+#section-aditional-panel_tittle {
+    font-size: 34px;
+    color: #DAEEF4;
+}
+
+#section-aditional-panel_paragraph {
+    font-size: 25px;
+    color: white;
+    padding-top: 25px;
+}
+
+.container {
+    width: 98%;
+    height: 70px;
+    background-color: aliceblue;
+    display: flex;
+}
+.footer-content {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content nav li {
+    display: inline;
+  }
+.footer-content nav a {
+    color: black;
+    text-decoration: none;
+}
+.footer-content nav a:hover {
+    text-decoration: underline;
+  }
+

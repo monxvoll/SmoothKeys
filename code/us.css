@@ -6,7 +6,7 @@ body{
 
 
 .mitad-blanca {
-    height: 360px;  /* Se configura la altura de la division en blanco */
+    height: 50%;  /* Se configura la altura de la division en blanco */
     background-color: white; /* Se asigna el color del div .mitad-blanca*/
     color: white;
 }
@@ -45,7 +45,7 @@ body{
     margin-bottom: 600px; /* agrega un margen inferior de 600 pixeles */
 }
 
-#logoA, #logoB, #logoC, #logoD  { /* Se concatena cada logo para ahorrar codigo*/
+#logoA, #logoB, #logoC, #logoD, #logo { /* Se concatena cada logo para ahorrar codigo*/
     height: auto; /* Se ajusta la altura de forma autonoma para mantener la posicion original */
     margin-top: 20.2%; /* Se cambia el margen superior */
     display: inline-block; /* Hace que los elementos se muestren en linea uno al lado del otro */
@@ -74,5 +74,9 @@ body{
 
 #logoE {
     width: 85px;
-    margin-left: 78%;
+    margin-left: 60%;
+    margin-right: 10px
+}
+#logo {
+    width: 85px;
 }

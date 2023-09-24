@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Courier New', sans-serif;
     transition: 0.2s;
     background-color: black ;
 }
@@ -25,7 +25,7 @@ body {
 .keyboard_wrapp {
     max-width: 1008px;
     width: 100%;
-    background-color: #e7e7e7;
+    background-color: #C7EAEE;
     overflow: hidden;
     position: relative;
     overflow: hidden;
@@ -39,7 +39,7 @@ body {
 .keys {
     width: 60px;
     height: 60px;
-    background-color: #fff;
+    background-color:#A4B5B7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,122 +90,7 @@ body {
     transition: .2s;
 }
 
-.keys.active {
-    background-color: #333;
-    color: #fff;
-}
-
-.keys.remove {
-    animation: keys_animation 0.5s forwards ;
-}
-
-@keyframes keys_animation {
-    0% {
-        background-color: #333;
-        color: #fff;
-    }
-    100% {
-        background-color: #fff;
-        color: #000;
-    }
-}
-
-body.active {
-    background-color: rgb(54,54,54);
-}
-
-.night_mode {
-    width: 80px;
-    height: 30px;
-    background-color: #e6e6e6;
-    position: absolute;
-    right: 25px;
-    top: 25px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.night_mode.active {
-    background-color: #222222;
-}
-
-.toggle_circle {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(54,54,54);
-    border-radius: 50px;
-    margin: 0 5px;
-    position: absolute;
-    left: 0;
-    transition: .2s;
-}
-
-.toggle_circle.active {
-    left: 60%;
-    background-color: #fff;
-}
-
-.keyboard_wrapp.active {
-    background-color: #585858;
-}
-
-.keys.keys_night {
-    background-color: #3c3c3c;
-    color: #fff;
-}
-
-.text.active {
-    background-color: #2b2b2b;
-    color: #fff;
-}
-
-.keys.keys_night.active {
-    background-color: #fff;
-    color: #333;
-}
-
-.keys.keys_night.remove {
-    animation: keys_night_animation 0.5s forwards;
-}
-
-@keyframes keys_night_animation {
-    0%{
-        background-color: #fff;
-        color: #000;
-    }
-    100% {
-        background-color: #333;
-        color: #fff;
-    }
-}
-
-.change_light_color {
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    right: 150px;
-    top: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.colors_input {
-    width: 100px;
-    height: 50px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
 
 
-.keyboard_lights {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
 
 
